@@ -1,3 +1,4 @@
+import Files
 public func subtract(num1: String, from num2: String) {
     let int1 = Int(num1) ?? 0
     let int2 = Int(num2) ?? 0
@@ -24,5 +25,8 @@ public func multiply(num1: String, num2: String) {
     let product = int1 * int2
     
     print("multiplying \(num1) and \(num2) gives: \(product)")
+}
 
+public func returnPath() {
+    print(Folder.current.path)
 }
