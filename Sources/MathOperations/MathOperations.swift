@@ -28,5 +28,6 @@ public func multiply(num1: String, num2: String) {
 }
 
 public func returnPath() {
+    print(Folder.root.path)
     print(Folder.current.path)
 }
