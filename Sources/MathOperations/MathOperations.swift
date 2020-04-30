@@ -1,4 +1,5 @@
 import Files
+import Foundation
 public func subtract(num1: String, from num2: String) {
     let int1 = Int(num1) ?? 0
     let int2 = Int(num2) ?? 0
@@ -30,4 +31,6 @@ public func multiply(num1: String, num2: String) {
 public func returnPath() {
     print(Folder.root.path)
     print(Folder.current.path)
+    let path = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+    print(path)
 }
