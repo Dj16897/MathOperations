@@ -28,7 +28,7 @@ public func multiply(num1: String, num2: String) {
     print("multiplying \(num1) and \(num2) gives: \(product)")
 }
 
-let swiftyml: String = """
+public let swiftyml: String = """
 disabled_rules: # rule identifiers to exclude from running
 - cyclomatic_complexity
 - file_length
