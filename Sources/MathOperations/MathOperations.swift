@@ -28,8 +28,8 @@ public func multiply(num1: String, num2: String) {
     print("multiplying \(num1) and \(num2) gives: \(product)")
 }
 
-public func createfile(at path: String) {
-    try Folder.createFileIfNeeded(at: path)
+public func createfile(path: String) {
+    try createFileIfNeeded(at: path)
 }
 
 public let swiftyml: String = """
